@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/activity_add_vendor_with_photo_btn_choosecontact"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/light_black"
+            android:text="@string/choosecontact"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/activity_add_vendor_with_photo_btn_addvendor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/light_black"
+            android:text="@string/addvendor"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/activity_add_vendor_with_photo_btn_addvendorphoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/light_black"
+            android:text="@string/vendorphoto"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/activity_add_vendor_with_photo_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@color/light_black"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

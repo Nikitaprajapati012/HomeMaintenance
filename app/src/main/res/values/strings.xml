@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Home Maintenance</string>
+    <string name="google_api_key">AIzaSyC5aznAnZELiBIaFsroDqujLB3kWdszawc</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="select_gallery">Select Gallery</string>
+    <string name="Edit">Edit</string>
+    <string name="start">Start</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="purchase_price">Purchase Price</string>
+    <string name="enter_notes">Enter Notes</string>
+    <string name="appraised_value">Appraised Value</string>
+    <string name="address">Address</string>
+
+    <string name="notes">Notes</string>
+    <string name="saved_photo">Saved Photos()</string>
+    <string name="item_name">Item Name</string>
+    <string name="service_desc">Service Desc</string>
+    <string name="service_frequency">Service Frequency</string>
+    <string name="next_service_date">Next Service Date</string>
+    <string name="warn_me">Warn me</string>
+    <string name="service_description">Service Description</string>
+    <string name="Date">Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="submit">Submit</string>
+    <string name="done">Done</string>
+    <string name="Continue">Continue</string>
+
+
+    <!--Main Activity-->
+    <string name="home">Home</string>
+    <string name="home_manage">Manage Home</string>
+    <string name="local_messages">Local Messages</string>
+    <string name="home_valuation_request">Home Valuation Request</string>
+    <string name="connect_home">Connect HomeMaintenance</string>
+    <string name="home_maintenance">HomeMaintenance</string>
+    <string name="demo_video">Demo Videos</string>
+    <string name="faq">FAQ</string>
+    <string name="account">Account</string>
+    <string name="reminder">Reminder</string>
+    <string name="directory">Directory</string>
+    <string name="appliance">Appliance</string>
+
+    <!--local Message -->
+    <string name="local_title">HomeMaintenance</string>
+    <string name="local_dialog_content1">You need to connect to a local expert to receive content specific to your area.</string>
+    <string name="local_dialog_content2">Would you like HomeMaintenance to connect you with one?</string>
+    <string name="local_mail_subject">Connect me to a Local Expert</string>
+    <string name="local_mail_content">Could you please connect me with a local expert so i can receive local content?</string>
+    <string name="local_mail_sincerely">Sincerely</string>
+    <string name="local_mail_zipcode">My Zip/Postal code is :</string>
+
+    <!--Home request Message -->
+    <string name="home_request_subject">HomeMaintenance - Home Valuation Request</string>
+    <string name="home_request_title">@string/requesttitle</string>
+    <string name="home_request_content">Could you please put me in touch with someone who can give me idea of what my home is worth in todays market</string>
+    <string name="home_request_content1">My email address is : </string>
+    <string name="home_request_sincerely">Sincerely,</string>
+    <string name="home_request_zipcode">@string/local_mail_zipcode</string>
+
+    <!--Home Screen-->
+    <string name="home_name">Home Name</string>
+    <string name="my_home">My Homes</string>
+    <string name="task">task</string>
+    <string name="add_propery">Add Property</string>
+    <string name="addhome">Add Home Picture</string>
+    <string name="broughtby">Brought to you  by: </string>
+    <string name="broughtname">Jennifer Jones</string>
+    <string name="call">Call</string>
+    <string name="home_email">Email HomeMaintenance</string>
+    <string name="home_photo">Upload Your photo</string>
+    <string name="refertofriend">Refer to a Friend</string>
+    <string name="home_connected">Were you supposed to be \n connected \n to real estate pro? if so, click here:</string>
+
+    <!--AddHome menually Screen-->
+    <string name="postal_req">Your Zip/Postal Code (Required)</string>
+    <string name="postal">Your Zip/Postal Code</string>
+    <string name="skip">Skip</string>
+    <string name="valid_zipcode">Please Provide a valid Zip code.Must be less than 20 characters</string>
+
+
+    <!--AboutHome  Screen-->
+    <string name="about_home">About your Home</string>
+    <string name="one">1 of 13</string>
+    <string name="two">2 of 13</string>
+    <string name="three">3 of 13</string>
+    <string name="four">4 of 13</string>
+    <string name="five">5 of 13</string>
+    <string name="six">6 of 13</string>
+    <string name="seven">7 of 13</string>
+    <string name="eight">8 of 13</string>
+    <string name="nine">9 of 13</string>
+    <string name="ten">10 of 13</string>
+    <string name="eleven">11 of 13</string>
+    <string name="twelve">12 of 13</string>
+    <string name="thirteen">13 of 13</string>
+
+    <!--que one -->
+    <string name="que_one">1. What type of home do you have?(required)</string>
+    <string name="que_one_option1">Single Family</string>
+    <string name="que_one_option2">Townhome</string>
+    <string name="que_one_option3">Condo</string>
+    <string name="que_one_option4">Apartment</string>
+
+    <!--que two -->
+    <string name="que_two">2. Do you live in a warm or cold climate?(required)</string>
+    <string name="que_two_option1">It is Warm Year Round</string>
+    <string name="que_two_option2">It is Sometimes Cold</string>
+
+    <!--que three-->
+    <string name="que_three">3. What type of air conditioning do you have? (Choose all that apply)</string>
+    <string name="que_three_option1">Central A/C</string>
+    <string name="que_three_option2">Window unit A/C</string>
+    <string name="que_three_option3">None</string>
+
+    <!--que four -->
+    <string name="que_four">4. What type of heating system do you have?</string>
+    <string name="que_four_option1">Radiators</string>
+    <string name="que_four_option2">Furnance</string>
+    <string name="que_four_option3">Not Sure</string>
+    <string name="que_four_option4">No Heating System</string>
+
+    <!--que five-->
+    <string name="que_five">5. Do you have a basement or a crawlspace?</string>
+    <string name="que_five_option1">Basement</string>
+    <string name="que_five_option2">Crawlspace</string>
+    <string name="que_five_option3">Neither</string>
+
+    <!--que seven -->
+    <string name="que_six">6. Do you have a pool?</string>
+    <string name="que_six_option1">Yes</string>
+    <string name="que_six_option2">No</string>
+
+    <!--que seven -->
+    <string name="que_seven">7. Do you have an irrigation/sprinkler system?</string>
+    <string name="que_seven_option1">Yes</string>
+    <string name="que_seven_option2">No</string>
+
+    <!--que eight -->
+    <string name="que_eight">8. Do you have wood burning fireplace?</string>
+    <string name="que_eight_option1">Yes</string>
+    <string name="que_eight_option2">No</string>
+
+
+    <!--que nine -->
+    <string name="que_nine">9. Do you have septic tank?</string>
+    <string name="que_nine_option1">Yes</string>
+    <string name="que_nine_option2">No</string>
+
+    <!--que nine -->
+    <string name="que_ten">10. Do you a sump pump?</string>
+    <string name="que_ten_option1">Yes</string>
+    <string name="que_ten_option2">No</string>
+
+
+    <!--que eleven -->
+    <string name="que_eleven">11. Do you have an emergency generator?</string>
+    <string name="que_eleven_option1">Yes</string>
+    <string name="que_eleven_option2">No</string>
+
+    <!--que twelve -->
+    <string name="que_twelve">12. Do you have a water softener or water purification system?</string>
+    <string name="que_twelve_option1">Yes, Both</string>
+    <string name="que_twelve_option2">Just a Water softener</string>
+    <string name="que_twelve_option3">Just a water purification system</string>
+    <string name="que_twelve_option4">Neither</string>
+
+    <!--que thirteen -->
+    <string name="que_thirteen">13. Do you have a washer or dryer?</string>
+    <string name="que_thirteen_option1">Yes, Both</string>
+    <string name="que_thirteen_option2">Just a Washer</string>
+    <string name="que_thirteen_option3">Just a Dryer</string>
+    <string name="que_thirteen_option4">Neither</string>
+
+    <!--AddReceipts Screen-->
+    <string name="model_serial">(Model # and Serial #)</string>
+    <string name="user_manual">We will find the user manual and store it here</string>
+    <string name="addphoto">Add Photo of any Receipt</string>
+    <string name="addphoto1">We Will catalog its details and store it here</string>
+    <string name="or">-----------------------OR-----------------------</string>
+    <string name="addinfo">----------Additional info-----------</string>
+    <string name="add_receipts">Add Receipts</string>
+    <string name="cost">Cost</string>
+    <string name="add_receipt_info">+ Add Receipt Info Menually (Optional)</string>
+    <string name="date_install">Date Bought Or Installed</string>
+    <string name="product_servise">Product/Service</string>
+    <string name="business">Business</string>
+
+    <!--Addvendor Dialog Screen-->
+    <string name="choosecontact">Choose from Contacts</string>
+    <string name="addvendor">Add Vendor Manually</string>
+    <string name="cancel">Cancel</string>
+    <string name="vendorphoto">Take Picture of Vendor info</string>
+
+    <!-- Addvendor Manually-->
+    <string name="addvendor_manually_contactnum">Contact Number(required)</string>
+    <string name="addvendor_manually_name">Contact Name</string>
+    <string name="addvendor_manually_addcategory">Add Category(required)</string>
+    <string name="addvendor_manually_companywebsite">Company Website</string>
+    <string name="addvendor_manually_comments">Comments</string>
+    <string name="addvendor_manually_complete_this_form">Complete this form</string>
+    <string name="add_vendor">Add Vendor Details</string>
+
+    <string-array name="categories">
+
+        <item>Add Category(required)</item>
+        <item>Chimney Specialists</item>
+        <item>Electricians</item>
+        <item>Exterminators</item>
+        <item>Gutter Servicers</item>
+        <item>HVAC Specialists</item>
+        <item>Irrigation Specialists</item>
+        <item>Landscapers</item>
+        <item>Painters</item>
+        <item>Plumbers</item>
+
+    </string-array>
+
+    <string-array name="appliancecategories">
+
+        <item>Select Category</item>
+        <item>Smart Phone</item>
+        <item>TV</item>
+        <item>Category TBA</item>
+        <item>Refrigerator</item>
+        <item>Range</item>
+        <item>Dishwasher</item>
+        <item>Washing Machine</item>
+        <item>Oven</item>
+        <item>Frezer</item>
+
+    </string-array>
+
+    <string-array name="editcategories">
+        <item>Select Category</item>
+
+    </string-array>
+    <string-array name="business">
+        <item>Relative Business / Service Pro</item>
+
+    </string-array>
+
+    <string name="addvendor_manually_email">Email</string>
+    <string name="addvendor_manually_companyname">Company Name(required)</string>
+
+    <!--  receipts screen-->
+    <string name="receipts">Receipts</string>
+    <string name="my_receipts">My Receipts</string>
+    <string name="total">Total</string>
+    <string name="receipts_date">@string/Date</string>
+    <string name="receipts_Yes">Yes</string>
+    <string name="receipts_no">No</string>
+    <string name="receipts_cost">@string/cost</string>
+    <string name="receipts_business">@string/business</string>
+    <string name="releted_business_service_pro">Relative Business / Service Pro</string>
+    <string name="add_new_vendor">+ Add New Vendor</string>
+
+
+    <!--EditReceipts Screen-->
+    <string name="edit_receipt">Edit Receipt</string>
+
+    <!-- AddAppliance screen-->
+    <string name="my_appliance">My Appliance</string>
+    <string name="Detail">Detail</string>
+    <string name="manual">Manual</string>
+    <string name="add_appliance">Add appliance</string>
+    <string name="add_category">Add Category</string>
+    <string name="category">Category</string>
+    <string name="add_newcategory">ex. Oven,Microwave,Smart Phone,etc</string>
+    <string name="add_appliancemanually_info">+ Add Appliance Info Menually (Optional)</string>
+    <string name="add_appliancemanually_brand">Brand</string>
+    <string name="add_appliancemanually_model">Model</string>
+    <string name="add_appliancemanually_serial">Serial #</string>
+    <string name="add_appliancemanually_price">Price</string>
+    <string name="add_appliancemanually_add_new_category">+ Add New Category</string>
+    <string name="title_activity_test">Test</string>
+
+
+    <!--aboutus screen-->
+    <string name="aboutus_your_commnets">Your Comments</string>
+    <string name="aboutus_business">Business Description</string>
+    <string name="aboutus_contact">Contact info</string>
+    <string name="aboutus_category">Business Category</string>
+    <string name="aboutus_visitwebsite">Please visit our <u>website</u> </string>
+    <string name="aboutus_emailcontent">Hi, i am using Home Maintenance and just wanted to pass along information on vendor.check out their details below:</string>
+    <!-- media screen -->
+    <string name="media_video">Company video</string>
+
+
+    <!--directory screen -->
+    <string name="request">Request a Vendor</string>
+    <string name="requestvendor">Home Maintenance has not added any preferred landscapers in your area yet. Click Yes to request a few recommended Vendors</string>
+    <string name="requesttitle">Hi Home Maintenance,</string>
+    <string name="requestcontent">Could you please send me the names of a few  </string>
+    <string name="requestcontent1"> specialists in my area ?</string>
+    <string name="requestcontent2">My Zip code is </string>
+    <string name="thanks">Thanks</string>
+
+
+    <!-- Map screen -->
+    <string name="map_address">Address</string>
+
+
+    <!--Login screen -->
+    <string name="login_email">Email Address</string>
+    <string name="login_password">Password</string>
+    <string name="login_next">Next</string>
+    <string name="login_forgot">Forgot Password</string>
+    <string name="login_signin">Sign In</string>
+    <string name="login_createaccont">It looks like you have not created an account with us yet. <u>Create an account</u> using that address?</string>
+
+    <!--Registration screen -->
+    <string name="reg_createaccount">Careate Homeowner Account</string>
+    <string name="reg_fisrtname">First Name</string>
+    <string name="reg_lastname">Last Name</string>
+    <string name="reg_email">@string/login_email</string>
+    <string name="reg_zipcode">@string/postal</string>
+    <string name="reg_password">Choose a Password</string>
+    <string name="reg_confirmpassword">Confirm a Password</string>
+    <string name="reg_agree">I agree with Home Maintenance <u>Terms of Services</u></string>
+
+    <!--Forgot password screen -->
+    <string name="forgot_submit">@string/submit</string>
+</resources>

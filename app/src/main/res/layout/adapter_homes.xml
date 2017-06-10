@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/adapter_home_iv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_gallery" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/adapter_home_tv_home_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Home Name"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/adapter_home_tv_home_Items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adapter_home_tv_home_name"
+                android:layout_centerHorizontal="true"
+                android:text="description" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:src="@drawable/ic_forward"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

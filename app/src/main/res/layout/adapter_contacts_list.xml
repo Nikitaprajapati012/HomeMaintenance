@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_1sdp"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/adapter_contacts_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_5sdp"
+        android:weightSum="2">
+
+
+        <TextView
+            android:id="@+id/adapter_contacts_list__txtcontactname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:text="Name"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/adapter_contacts_list__txtcontactnumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:text="123456"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

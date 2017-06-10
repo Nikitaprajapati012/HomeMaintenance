@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_appliance_listdetail_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_black"
+    android:orientation="vertical"
+    tools:context=".Fragment.AllScreen.ApplianceListDetailFragment">
+
+    <RelativeLayout
+        android:id="@+id/header_appliance_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/header_detail_list" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="9">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/add_appliancemanually_brand"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtbrand"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/add_appliancemanually_model"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtmodel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/category"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtcategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/add_appliancemanually_serial"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtserial"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/add_appliancemanually_price"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/date_install"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/releted_business_service_pro"
+                        android:textSize="@dimen/_13sdp"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtbusiness"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/notes"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_appliance_listdetail_txtnotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp">
+
+                    <ImageView
+                        android:id="@+id/fragment_appliance_listdetail_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_launcher" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
+

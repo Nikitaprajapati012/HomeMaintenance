@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_add_receipts_linear_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/fragment_receipts_btndate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_weight="1"
+                android:background="@color/light_black_2"
+                android:text="@string/Date"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+
+            <Button
+                android:id="@+id/fragment_receipts_btnproduct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_weight="1"
+                android:background="@color/light_black_2"
+                android:text="@string/product_servise"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+
+            <Button
+                android:id="@+id/fragment_receipts_btnbusiness"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_weight="1"
+                android:background="@color/light_black_2"
+                android:text="@string/business"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Date"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/business"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/cost"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>-->
+
+
+        <FrameLayout
+            android:id="@+id/fragment_receipts_framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

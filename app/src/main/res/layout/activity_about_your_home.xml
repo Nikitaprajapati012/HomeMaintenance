@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_your_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.archi.homemaintenance.Activity.ActivityAboutYourHome">
+
+    <RelativeLayout
+        android:id="@+id/header_about_home"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="top"
+        android:gravity="top">
+
+        <include layout="@layout/header_detail_list" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_230sdp"
+                    android:layout_above="@+id/activity_about_your_home_thirdview"
+                    android:layout_below="@+id/header_about_home"
+                    android:layout_weight="1.8"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/activity_about_your_home_view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </android.support.v4.view.ViewPager>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/activity_about_your_home_thirdview"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_weight="0.2">
+
+                    <Button
+                        android:id="@+id/activity_about_your_home_btncontinue"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:background="@color/blue_light"
+                        android:text="@string/Continue"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/activity_about_your_home_btndone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_below="@+id/activity_about_your_home_btncontinue"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:background="@drawable/drawable_header_background"
+                        android:text="@string/done"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/activity_about_your_home_txtpage"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_below="@+id/activity_about_your_home_btncontinue"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:gravity="center"
+                        android:text="1 of 13"
+                        android:textColor="@color/blue_light"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
+
+

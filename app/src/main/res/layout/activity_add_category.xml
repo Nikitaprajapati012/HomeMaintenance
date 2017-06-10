@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Activity.ActivityAddCategory">
+
+    <RelativeLayout
+        android:id="@+id/header_add_appliances"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/drawable_header_background">
+
+        <ImageView
+            android:id="@+id/header_iv_backcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/header_tv_header_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/header_tv_edit"
+            android:layout_toRightOf="@+id/header_iv_add"
+            android:gravity="center"
+            android:text="@string/add_category"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/drawable_button_add"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/Edit"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <EditText
+            android:id="@+id/activity_add_category_edcategory"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:hint="@string/add_newcategory" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_marginBottom="@dimen/_10sdp">
+    <Button
+        android:id="@+id/activity_add_category_btnSubmit"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center|bottom"
+        android:background="@color/light_black"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit"
+        android:textColor="@android:color/white" />
+        </LinearLayout>
+</LinearLayout>

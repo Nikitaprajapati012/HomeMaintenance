@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/adapter_categorylist_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_3sdp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+       <!-- <TextView
+            android:id="@+id/adapter_vender_list_txtsort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:gravity="center|left"
+            android:text="c"
+            android:textSize="@dimen/_13sdp" />-->
+
+        <TextView
+            android:id="@+id/adapter_vender_list_txtcategoryname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:gravity="center|left"
+            android:text="vender"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

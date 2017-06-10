@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+    <include layout="@layout/header"
+        android:id="@+id/header">
+    </include>
+
+<ScrollView
+    android:layout_below="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="left"
+            android:text="@string/home_name"
+            />
+        <TableLayout
+        android:layout_below="@+id/header"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_border"
+        android:shrinkColumns="2"
+        android:stretchColumns="2">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/activity_home_detail_home_purhcase_name"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom_left"
+                android:gravity="center"
+                android:text="@string/item_name"
+
+                />
+
+            <TextView
+                android:id="@+id/activity_item_schedule_tv_item_name"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom"
+                android:gravity="left"
+                android:padding="18dip"
+                android:text="vjvgfsgdsdhsdhdghghdghhfhdghgha"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/activity_home_detail_home_purhcase_price"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom_left"
+                android:gravity="center"
+                android:text="@string/service_desc"
+
+                />
+
+            <TextView
+                android:id="@+id/activity_item_schedule_tv_service_desc"
+                android:layout_width="0.5dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_forward"
+                android:background="@drawable/drawable_border_bottom"
+                android:gravity="left"
+                android:padding="18dip"
+                android:text="vjvgfsgdfhdghgha"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/activity_home_detail_home_appraised_value"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom_left"
+                android:gravity="center"
+                android:text="@string/service_frequency"
+
+                />
+
+            <TextView
+                android:id="@+id/activity_item_schedule_tv_service_frequency"
+                android:layout_width="0.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom"
+                android:gravity="left"
+                android:padding="18dip"
+                android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/activity_home_detail_home_addres"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom_left"
+                android:gravity="center"
+                android:text="@string/next_service_date"
+
+                />
+
+            <TextView
+                android:id="@+id/activity_item_schedule_tv_next_service_date"
+                android:layout_width="0.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom"
+                android:gravity="left"
+                android:padding="18dip"
+                android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/activity_home_detail_home_notes"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom_left"
+                android:gravity="center"
+                android:text="@string/warn_me"
+
+                />
+
+            <TextView
+                android:id="@+id/activity_item_schedule_tv_warn_me"
+                android:layout_width="0.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_border_bottom"
+                android:gravity="left"
+                android:padding="18dip"
+                android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/activity_home_detail_home_notess"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom_left"
+                    android:gravity="center"
+                    android:text="@string/notes"
+                    />
+
+                <TextView
+                    android:id="@+id/activity_item_schedule_tv_notes"
+                    android:layout_width="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:gravity="left"
+                    android:padding="18dip"
+                    android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+    </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+</RelativeLayout>
+
+
+

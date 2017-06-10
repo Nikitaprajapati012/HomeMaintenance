@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
+
+        <TableLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_border"
+            android:shrinkColumns="2"
+            android:stretchColumns="2">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/activity_home_detail_home_purhcase_name"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom_left"
+                    android:gravity="center"
+                    android:text="@string/home_name"
+
+                    />
+
+                <TextView
+                    android:id="@+id/activity_home_detail_tv_home_purchase_name"
+                    android:layout_width="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom"
+                    android:gravity="left"
+                    android:padding="18dip"
+                    android:text="vjvgfsgdsdhsdhdghghdghhfhdghgha"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/activity_home_detail_home_purhcase_price"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom_left"
+                    android:gravity="center"
+                    android:text="@string/purchase_price"
+
+                    />
+
+                <TextView
+                    android:id="@+id/activity_home_detail_tv_home_purchase_price"
+                    android:layout_width="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom"
+                    android:gravity="left"
+                    android:padding="18dip"
+                    android:text="vjvgfsgdfhdghgha"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/activity_home_detail_home_appraised_value"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom_left"
+                    android:gravity="center"
+                    android:text="@string/appraised_value"
+
+                    />
+
+                <TextView
+                    android:id="@+id/activity_home_detail_tv_home_apprised_value"
+                    android:layout_width="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom"
+                    android:gravity="left"
+                    android:padding="18dip"
+                    android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/activity_home_detail_home_addres"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom_left"
+                    android:gravity="center"
+                    android:text="@string/address"
+
+                    />
+
+                <TextView
+                    android:id="@+id/activity_home_detail_tv_home_address"
+                    android:layout_width="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:gravity="left"
+                    android:padding="18dip"
+                    android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/activity_home_detail_home_notes"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom_left"
+                    android:gravity="center"
+                    android:text="@string/notes"
+
+                    />
+
+                <TextView
+                    android:id="@+id/activity_home_detail_tv_home_notes"
+                    android:layout_width="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/drawable_border_bottom"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:gravity="left"
+                    android:padding="18dip"
+                    android:text="vjvgfsgdsfgsgsfdgsdfgsfdgsgfhdghgha"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_border_bottom">
+
+                <ImageView
+                    android:id="@+id/activity_home_detail_iv_home_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:gravity="left"
+                    android:src="@drawable/ic_action_gallery"
+                    android:textColor="#000000" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text="@string/saved_photo" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_forward" />
+            </RelativeLayout>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

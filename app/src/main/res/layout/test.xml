@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:hint="SharedPreference Example"
+        android:ems="10" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextEnterName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:maxLength="30"
+        android:hint="Enter Your Name">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextEnterEid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:maxLength="8"
+        android:inputType ="number"
+        android:hint="Enter Your Employee ID">
+    </EditText>
+    <EditText
+        android:id="@+id/editTextEnterAge"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:inputType ="number"
+        android:maxLength="2"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Age">
+    </EditText>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonStore"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="onClickStore"
+            android:text="Store" />
+        <Button
+            android:id="@+id/buttonLoad"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/buttonStore"
+            android:onClick="onClickLoad"
+            android:text="Load" />
+    </RelativeLayout>>
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_receipts_listdetail_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_black"
+    android:orientation="vertical"
+    tools:context=".Fragment.AllScreen.ReceiptsListDetailFragment">
+
+    <RelativeLayout
+        android:id="@+id/header_receipts_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/header_detail_list" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="6">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/Date"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_receipts_list_detail_txtdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/product_servise"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_receipts_list_detail_txtproduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/business"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_receipts_list_detail_txtbusiness"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/cost"
+                        android:textSize="@dimen/_13sdp"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_receipts_list_detail_txtcost"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|left"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/notes"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fragment_receipts_list_detail_txtnotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="center|right"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:padding="@dimen/_5sdp"
+                        android:text=""
+                        android:textSize="@dimen/_13sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_250sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_weight="1"
+                    android:background="@color/background"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:id="@+id/fragment_receipts_listdetail_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:src="@mipmap/ic_launcher" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
+

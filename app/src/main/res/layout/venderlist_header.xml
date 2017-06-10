@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/drawable_header_background"
+    >
+
+    <ImageView
+        android:id="@+id/header_iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:background="@drawable/drawable_button_add"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/ic_back" />
+
+
+    <TextView
+        android:id="@+id/header_tv_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/header_imgadd"
+        android:layout_toRightOf="@+id/header_iv_back"
+        android:gravity="center"
+        android:textSize="@dimen/_15sdp"
+        android:text="Category Name"
+        android:textColor="@android:color/white" />
+
+
+    <ImageView
+        android:id="@+id/header_imgadd"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_add"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/drawable_button_add"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

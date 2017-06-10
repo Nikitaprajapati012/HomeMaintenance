@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_black">#434343</color>
+    <color name="light_black_2">#606060</color>
+
+    <color name="background">#C3CAD2</color>
+    <color name="blue_light">#3871DA</color>
+    <color name="blue_light_second">#191970</color>
+    <color name="blue_dark">#52EFFF</color>
+
+    <!--Home Screen -->
+    <color name="home_black">@color/light_black</color>
+</resources>

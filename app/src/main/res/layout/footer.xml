@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/activity_main_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/drawable_header_background"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_icon_border"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_5sdp"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/footer_imghome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+
+                android:id="@+id/footer_txthome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/home"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_icon_border"
+
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_5sdp"
+            android:weightSum="2">
+
+            <ImageView
+
+                android:id="@+id/footer_imgreminder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:src="@drawable/ic_reminder" />
+
+            <TextView
+
+                android:id="@+id/footer_txtreminder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="@string/reminder"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_icon_border"
+
+
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_5sdp"
+            android:weightSum="2">
+
+            <ImageView
+
+                android:id="@+id/footer_imgdirectory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:src="@drawable/ic_directory" />
+
+            <TextView
+                android:id="@+id/footer_txtdirectory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="@string/directory"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_icon_border"
+
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_5sdp"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/footer_imgapplicance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:src="@drawable/ic_applicance" />
+
+            <TextView
+                android:id="@+id/footer_txtapplicance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="@string/appliance"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_icon_border"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_5sdp"
+            android:weightSum="2">
+
+            <ImageView
+
+                android:id="@+id/footer_imgreceipts"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:src="@drawable/ic_receipts" />
+
+            <TextView
+
+                android:id="@+id/footer_txtreceipts"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="@string/receipts"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

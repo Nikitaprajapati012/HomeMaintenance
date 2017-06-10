@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/adapter_business_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_1sdp"
+        android:background="@color/background"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_5sdp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/adapter_business_list_txtbusiness"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="business"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/adapter_business_list_txtreceipts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="receipts"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/adapter_business_list_txttotal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/total"
+            android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
